@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Font-->
+    <link href="https://fonts.cdnfonts.com/css/division-one" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>HOME</h1>
+            <h1>GUEST</h1>
+        </header>
+        <article class="score">
+            <div class="score-container">
+                <p id="home-score">0</p>
+            </div>
+            <div class="score-container">
+                <p id="guest-score">0</p>
+            </div>
+        </article>
+        <article class="score-btn">
+            <div class="score-btn-container">
+                <button onclick="home1()">+1</button>
+                <button onclick="home2()">+2</button>
+                <button onclick="home3()">+3</button>
+            </div>
+            <div class="score-btn-container">
+                <button onclick="guest1()">+1</button>
+                <button onclick="guest2()">+2</button>
+                <button onclick="guest3()">+3</button>
+            </div>
+        </article>
+        <article class="reset-btn">
+            <button class="reset" onclick="reset()">RESET</button>
+        </article>
+    </div>
+    <!--end of container-->
+    <!--Script-->
+    <script src="./script.js"></script>
+</body>
+
+</html>
